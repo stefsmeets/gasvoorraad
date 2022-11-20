@@ -1,8 +1,13 @@
-import requests
 import altair as alt
+from datetime import date
 import pandas as pd
+import requests
+import sys
 
-from secrets import TOKEN
+try:
+    TOKEN = sys.argv[1]
+except IndexError:
+    from secrets import TOKEN
 
 url = "https://agsi.gie.eu/api"
 
@@ -10,7 +15,7 @@ params = {
     "country": "nl",
     "from": "2022-01-01",
     #     "to": "2022-10-21",
-    "size": 300,
+    "size": 365,
 }
 
 header = {
@@ -59,9 +64,9 @@ bar = base.mark_bar().encode(
 
 chart = bar + line
 
-today = datetime.date.today()
+today = date.today()
 
-chart = chart.properties(title=f"Gasvoorraad in Nederland\nUpdated {today}").resolve_scale(
+chart = chart.properties(title=f"Gasvoorraad in Nederland - Geüpdated: {today}").resolve_scale(
     y="independent"
 )
 
