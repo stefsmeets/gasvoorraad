@@ -56,34 +56,53 @@
 }
 ],
 "data": {
-"name": "data-2851535810acf2adf5f25998f80ba24d"
+"name": "data-8e98b50ee44ce46df867abfa3809edc1"
 },
 "resolve": {
 "scale": {
 "y": "independent"
 }
 },
-"title": "Gasvoorraad in Nederland - Ge\u00fcpdated: 2022-11-21",
+"title": "Gasvoorraad in Nederland - Ge\u00fcpdated: 2022-11-22",
 "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
 "datasets": {
-"data-2851535810acf2adf5f25998f80ba24d": [
+"data-8e98b50ee44ce46df867abfa3809edc1": [
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2022-11-20T00:00:00",
+"gasInStorage": 126.6221,
+"consumption": 350.6667,
+"consumptionFull": 36.11,
+"injection": 69.93,
+"withdrawal": 320.2,
+"netWithdrawal": 250.3,
+"workingGasVolume": 138.9411,
+"injectionCapacity": 1403.66,
+"withdrawalCapacity": 2786.48,
+"status": "C",
+"trend": -0.18,
+"full": 91.13,
+"info": []
+},
 {
 "name": "Netherlands",
 "code": "NL",
 "url": "NL",
 "gasDayStart": "2022-11-19T00:00:00",
-"gasInStorage": 127.1317,
+"gasInStorage": 126.8788,
 "consumption": 350.6667,
-"consumptionFull": 36.25,
-"injection": 52.26,
-"withdrawal": 196.3,
-"netWithdrawal": 144.1,
+"consumptionFull": 36.18,
+"injection": 28.63,
+"withdrawal": 234.0,
+"netWithdrawal": 205.4,
 "workingGasVolume": 138.9411,
 "injectionCapacity": 1403.64,
 "withdrawalCapacity": 2786.52,
-"status": "E",
-"trend": -0.1,
-"full": 91.5,
+"status": "C",
+"trend": -0.15,
+"full": 91.32,
 "info": []
 },
 {
@@ -132,7 +151,7 @@
 "gasInStorage": 127.4326,
 "consumption": 350.6667,
 "consumptionFull": 36.34,
-"injection": 96.82,
+"injection": 96.81,
 "withdrawal": 102.5,
 "netWithdrawal": 5.7,
 "workingGasVolume": 138.9411,
@@ -1994,7 +2013,7 @@
 "gasInStorage": 98.2385,
 "consumption": 350.6667,
 "consumptionFull": 28.01,
-"injection": 401.32,
+"injection": 401.31,
 "withdrawal": 78.6,
 "netWithdrawal": -322.7,
 "workingGasVolume": 138.9911,
