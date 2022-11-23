@@ -3,11 +3,17 @@ from datetime import date
 import pandas as pd
 import requests
 import sys
+import argparse
 
-try:
+parser = argparse.ArgumentParser()
+parser.add_argument('--token', type=str)
+parser.add_argument('year', nargs='*')
+args = parser.parse_args() 
+
+if args.token:
+    TOKEN = args.token
+else:
     TOKEN = sys.argv[1]
-except IndexError:
-    from secrets import TOKEN
 
 url = "https://agsi.gie.eu/api"
 
@@ -15,7 +21,7 @@ header = {
     "x-key": TOKEN,
 }
 
-for year in sys.argv[1:]:
+for year in args.year:
     print(f'Processing {year}')
 
     params = {
