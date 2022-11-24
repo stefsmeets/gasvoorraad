@@ -1,9 +1,9 @@
 name: Update data
 
 on:
-  # Daily at 02:57
+  # Every Sunday at 02:57
   schedule:
-    - cron: "57 2 * * *"
+    - cron: "57 2 * * 0"
   # on demand
   workflow_dispatch:
 
@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name 'Stef Smeets'
           git config user.email 'stefsmeets@users.noreply.github.com'
-          git add chart.json
+          git add chart-2022.json
           git commit -m "Update data"
           git push
