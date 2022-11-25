@@ -8,7 +8,7 @@
 "layer": [
 {
 "data": {
-"name": "data-ea53a5c11cc4e541b44299f418fff7cc"
+"name": "data-e6046c1ade6f9841bcfa01eea623ad0d"
 },
 "mark": {
 "type": "line",
@@ -60,7 +60,7 @@
 },
 {
 "data": {
-"name": "data-dfb6a5a93169901eeff395b780a7ad81"
+"name": "data-d8247c4518ed09479bbe2f7a9fc9a3ac"
 },
 "mark": {
 "type": "bar",
@@ -125,7 +125,45 @@
 "title": "Gasvoorraad in Nederland 2022",
 "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
 "datasets": {
-"data-ea53a5c11cc4e541b44299f418fff7cc": [
+"data-e6046c1ade6f9841bcfa01eea623ad0d": [
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2022-11-24T00:00:00",
+"gasInStorage": 125.363,
+"consumption": 350.6667,
+"consumptionFull": 35.75,
+"injection": 30.89,
+"withdrawal": -312.5,
+"netWithdrawal": 281.6,
+"workingGasVolume": 138.9411,
+"injectionCapacity": 1403.92,
+"withdrawalCapacity": 2785.78,
+"status": "E",
+"trend": -0.2,
+"full": 90.23,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2022-11-23T00:00:00",
+"gasInStorage": 125.6466,
+"consumption": 350.6667,
+"consumptionFull": 35.83,
+"injection": 53.46,
+"withdrawal": -272.7,
+"netWithdrawal": 219.2,
+"workingGasVolume": 138.9411,
+"injectionCapacity": 1403.92,
+"withdrawalCapacity": 2785.78,
+"status": "E",
+"trend": -0.16,
+"full": 90.43,
+"info": []
+},
 {
 "name": "Netherlands",
 "code": "NL",
@@ -207,11 +245,11 @@
 "code": "NL",
 "url": "NL",
 "gasDayStart": "2022-11-18T00:00:00",
-"gasInStorage": 127.2802,
+"gasInStorage": 127.2801,
 "consumption": 350.6667,
 "consumptionFull": 36.3,
-"injection": 39.19,
-"withdrawal": -210.9,
+"injection": 39.18,
+"withdrawal": -211.0,
 "netWithdrawal": 171.8,
 "workingGasVolume": 138.9411,
 "injectionCapacity": 1403.63,
@@ -226,10 +264,10 @@
 "code": "NL",
 "url": "NL",
 "gasDayStart": "2022-11-17T00:00:00",
-"gasInStorage": 127.4521,
+"gasInStorage": 127.452,
 "consumption": 350.6667,
 "consumptionFull": 36.35,
-"injection": 91.11,
+"injection": 91.1,
 "withdrawal": -71.6,
 "netWithdrawal": -19.5,
 "workingGasVolume": 138.9411,
@@ -248,7 +286,7 @@
 "gasInStorage": 127.4325,
 "consumption": 350.6667,
 "consumptionFull": 36.34,
-"injection": 96.8,
+"injection": 96.79,
 "withdrawal": -102.5,
 "netWithdrawal": 5.7,
 "workingGasVolume": 138.9411,
@@ -2107,10 +2145,10 @@
 "code": "NL",
 "url": "NL",
 "gasDayStart": "2022-08-10T00:00:00",
-"gasInStorage": 98.2385,
+"gasInStorage": 98.2384,
 "consumption": 350.6667,
 "consumptionFull": 28.01,
-"injection": 401.3,
+"injection": 401.29,
 "withdrawal": -78.6,
 "netWithdrawal": -322.7,
 "workingGasVolume": 138.9911,
@@ -6325,7 +6363,7 @@
 "info": []
 }
 ],
-"data-dfb6a5a93169901eeff395b780a7ad81": [
+"data-d8247c4518ed09479bbe2f7a9fc9a3ac": [
 {
 "gasDayStart": "2022-01-02T00:00:00",
 "variable": "injectie",
@@ -6564,7 +6602,7 @@
 {
 "gasDayStart": "2022-11-27T00:00:00",
 "variable": "injectie",
-"value": 96.0
+"value": 180.0
 },
 {
 "gasDayStart": "2022-01-02T00:00:00",
@@ -6799,12 +6837,12 @@
 {
 "gasDayStart": "2022-11-20T00:00:00",
 "variable": "afname",
-"value": -1433.0
+"value": -1434.0
 },
 {
 "gasDayStart": "2022-11-27T00:00:00",
 "variable": "afname",
-"value": -832.0
+"value": -1417.0
 }
 ]
 }
