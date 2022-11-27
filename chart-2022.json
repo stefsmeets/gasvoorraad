@@ -8,7 +8,7 @@
 "layer": [
 {
 "data": {
-"name": "data-e6046c1ade6f9841bcfa01eea623ad0d"
+"name": "data-20a52aae252399fbde4c57630099a7df"
 },
 "mark": {
 "type": "line",
@@ -60,7 +60,7 @@
 },
 {
 "data": {
-"name": "data-d8247c4518ed09479bbe2f7a9fc9a3ac"
+"name": "data-a4dbe1d4b1190268ae7d60a26cbead34"
 },
 "mark": {
 "type": "bar",
@@ -125,7 +125,26 @@
 "title": "Gasvoorraad in Nederland 2022",
 "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
 "datasets": {
-"data-e6046c1ade6f9841bcfa01eea623ad0d": [
+"data-20a52aae252399fbde4c57630099a7df": [
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2022-11-25T00:00:00",
+"gasInStorage": 125.1329,
+"consumption": 350.6667,
+"consumptionFull": 35.68,
+"injection": 57.85,
+"withdrawal": -280.1,
+"netWithdrawal": 222.2,
+"workingGasVolume": 138.9411,
+"injectionCapacity": 1403.92,
+"withdrawalCapacity": 2785.79,
+"status": "E",
+"trend": -0.16,
+"full": 90.06,
+"info": []
+},
 {
 "name": "Netherlands",
 "code": "NL",
@@ -245,11 +264,11 @@
 "code": "NL",
 "url": "NL",
 "gasDayStart": "2022-11-18T00:00:00",
-"gasInStorage": 127.2801,
+"gasInStorage": 127.2802,
 "consumption": 350.6667,
 "consumptionFull": 36.3,
-"injection": 39.18,
-"withdrawal": -211.0,
+"injection": 39.17,
+"withdrawal": -210.9,
 "netWithdrawal": 171.8,
 "workingGasVolume": 138.9411,
 "injectionCapacity": 1403.63,
@@ -267,7 +286,7 @@
 "gasInStorage": 127.452,
 "consumption": 350.6667,
 "consumptionFull": 36.35,
-"injection": 91.1,
+"injection": 91.09,
 "withdrawal": -71.6,
 "netWithdrawal": -19.5,
 "workingGasVolume": 138.9411,
@@ -2145,7 +2164,7 @@
 "code": "NL",
 "url": "NL",
 "gasDayStart": "2022-08-10T00:00:00",
-"gasInStorage": 98.2384,
+"gasInStorage": 98.2385,
 "consumption": 350.6667,
 "consumptionFull": 28.01,
 "injection": 401.29,
@@ -6363,7 +6382,7 @@
 "info": []
 }
 ],
-"data-d8247c4518ed09479bbe2f7a9fc9a3ac": [
+"data-a4dbe1d4b1190268ae7d60a26cbead34": [
 {
 "gasDayStart": "2022-01-02T00:00:00",
 "variable": "injectie",
@@ -6602,7 +6621,7 @@
 {
 "gasDayStart": "2022-11-27T00:00:00",
 "variable": "injectie",
-"value": 180.0
+"value": 238.0
 },
 {
 "gasDayStart": "2022-01-02T00:00:00",
@@ -6837,12 +6856,12 @@
 {
 "gasDayStart": "2022-11-20T00:00:00",
 "variable": "afname",
-"value": -1434.0
+"value": -1433.0
 },
 {
 "gasDayStart": "2022-11-27T00:00:00",
 "variable": "afname",
-"value": -1417.0
+"value": -1698.0
 }
 ]
 }
