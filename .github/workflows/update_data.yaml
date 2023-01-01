@@ -28,7 +28,7 @@ jobs:
       
       - name: Update data
         run: |
-          python gasvoorraad_plot.py 2022 --token ${{ secrets.ASGI_TOKEN }}
+          python gasvoorraad_plot.py 2023 --token ${{ secrets.ASGI_TOKEN }}
 
       - name: Push changes
         run: |
