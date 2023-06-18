@@ -1,14 +1,14 @@
 {
 "config": {
 "view": {
-"continuousWidth": 400,
+"continuousWidth": 300,
 "continuousHeight": 300
 }
 },
 "layer": [
 {
 "data": {
-"name": "data-65639ade00849e72a7237a86c58e9a34"
+"name": "data-c01036f1fc187a1bdc81896a9300ea71"
 },
 "mark": {
 "type": "line",
@@ -47,20 +47,11 @@
 "type": "quantitative"
 }
 },
-"selection": {
-"selector001": {
-"type": "interval",
-"bind": "scales",
-"encodings": [
-"x",
-"y"
-]
-}
-}
+"name": "view_1"
 },
 {
 "data": {
-"name": "data-46be913b3d90cde2e1f67e2b9f390534"
+"name": "data-2d8cf1008d0f23efa9d977d7b6c2e879"
 },
 "mark": {
 "type": "bar",
@@ -117,15 +108,171 @@
 }
 }
 ],
+"params": [
+{
+"name": "param_1",
+"select": {
+"type": "interval",
+"encodings": [
+"x",
+"y"
+]
+},
+"bind": "scales",
+"views": [
+"view_1"
+]
+}
+],
 "resolve": {
 "scale": {
 "y": "independent"
 }
 },
 "title": "Gasvoorraad in Nederland 2023",
-"$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+"$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
 "datasets": {
-"data-65639ade00849e72a7237a86c58e9a34": [
+"data-c01036f1fc187a1bdc81896a9300ea71": [
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-16T00:00:00",
+"gasInStorage": 105.2409,
+"consumption": 350.6667,
+"consumptionFull": 30.01,
+"injection": 594.29,
+"withdrawal": -18.5,
+"netWithdrawal": -575.8,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1452.93,
+"withdrawalCapacity": 2813.53,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.4,
+"full": 73.88,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-15T00:00:00",
+"gasInStorage": 104.6594,
+"consumption": 350.6667,
+"consumptionFull": 29.85,
+"injection": 520.8,
+"withdrawal": -73.9,
+"netWithdrawal": -446.9,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1452.93,
+"withdrawalCapacity": 2813.52,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.31,
+"full": 73.48,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-14T00:00:00",
+"gasInStorage": 104.2085,
+"consumption": 350.6667,
+"consumptionFull": 29.72,
+"injection": 522.73,
+"withdrawal": -62.3,
+"netWithdrawal": -460.4,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1453.07,
+"withdrawalCapacity": 2813.15,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.32,
+"full": 73.16,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-13T00:00:00",
+"gasInStorage": 103.7441,
+"consumption": 350.6667,
+"consumptionFull": 29.58,
+"injection": 558.09,
+"withdrawal": -40.1,
+"netWithdrawal": -517.9,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1453.25,
+"withdrawalCapacity": 2812.67,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.36,
+"full": 72.83,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-12T00:00:00",
+"gasInStorage": 103.2205,
+"consumption": 350.6667,
+"consumptionFull": 29.44,
+"injection": 540.53,
+"withdrawal": -48.2,
+"netWithdrawal": -492.3,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1413.53,
+"withdrawalCapacity": 2811.93,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.35,
+"full": 72.47,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-11T00:00:00",
+"gasInStorage": 102.7282,
+"consumption": 350.6667,
+"consumptionFull": 29.3,
+"injection": 518.97,
+"withdrawal": -16.4,
+"netWithdrawal": -502.6,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1413.93,
+"withdrawalCapacity": 2810.88,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.35,
+"full": 72.12,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-06-10T00:00:00",
+"gasInStorage": 102.2175,
+"consumption": 350.6667,
+"consumptionFull": 29.15,
+"injection": 523.1,
+"withdrawal": -13.8,
+"netWithdrawal": -509.3,
+"workingGasVolume": 142.4411,
+"injectionCapacity": 1414.33,
+"withdrawalCapacity": 2809.83,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.36,
+"full": 71.76,
+"info": []
+},
 {
 "name": "Netherlands",
 "code": "NL",
@@ -3327,7 +3474,7 @@
 "info": []
 }
 ],
-"data-46be913b3d90cde2e1f67e2b9f390534": [
+"data-2d8cf1008d0f23efa9d977d7b6c2e879": [
 {
 "gasDayStart": "2023-01-01T00:00:00",
 "variable": "injectie",
@@ -3446,7 +3593,12 @@
 {
 "gasDayStart": "2023-06-11T00:00:00",
 "variable": "injectie",
-"value": 2439.0
+"value": 3481.0
+},
+{
+"gasDayStart": "2023-06-18T00:00:00",
+"variable": "injectie",
+"value": 2736.0
 },
 {
 "gasDayStart": "2023-01-01T00:00:00",
@@ -3566,7 +3718,12 @@
 {
 "gasDayStart": "2023-06-11T00:00:00",
 "variable": "afname",
-"value": -178.0
+"value": -208.0
+},
+{
+"gasDayStart": "2023-06-18T00:00:00",
+"variable": "afname",
+"value": -243.0
 }
 ]
 }
