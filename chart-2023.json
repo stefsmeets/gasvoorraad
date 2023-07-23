@@ -8,7 +8,7 @@
 "layer": [
 {
 "data": {
-"name": "data-5163cf18bbade21fd145fc15352ca4e9"
+"name": "data-71b32b0ba728e7518b223ebd5927b9b7"
 },
 "mark": {
 "type": "line",
@@ -51,7 +51,7 @@
 },
 {
 "data": {
-"name": "data-864ebca75cd1d923fe8de77de101bc08"
+"name": "data-08d7ed11f104df78fe1fe6fe0f54c94b"
 },
 "mark": {
 "type": "bar",
@@ -132,7 +132,147 @@
 "title": "Gasvoorraad in Nederland 2023",
 "$schema": "https://vega.github.io/schema/vega-lite/v5.8.0.json",
 "datasets": {
-"data-5163cf18bbade21fd145fc15352ca4e9": [
+"data-71b32b0ba728e7518b223ebd5927b9b7": [
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-21T00:00:00",
+"gasInStorage": 121.892,
+"consumption": 350.6667,
+"consumptionFull": 34.76,
+"injection": 505.7,
+"withdrawal": -18.2,
+"netWithdrawal": -487.5,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1406.47,
+"withdrawalCapacity": 2830.57,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.34,
+"full": 85.59,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-20T00:00:00",
+"gasInStorage": 121.3969,
+"consumption": 350.6667,
+"consumptionFull": 34.62,
+"injection": 453.39,
+"withdrawal": -44.1,
+"netWithdrawal": -409.3,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1406.48,
+"withdrawalCapacity": 2830.55,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.29,
+"full": 85.25,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-19T00:00:00",
+"gasInStorage": 120.9902,
+"consumption": 350.6667,
+"consumptionFull": 34.5,
+"injection": 457.83,
+"withdrawal": -89.6,
+"netWithdrawal": -368.2,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1406.61,
+"withdrawalCapacity": 2830.21,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.26,
+"full": 84.96,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-18T00:00:00",
+"gasInStorage": 120.619,
+"consumption": 350.6667,
+"consumptionFull": 34.4,
+"injection": 448.62,
+"withdrawal": -48.7,
+"netWithdrawal": -399.9,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1406.75,
+"withdrawalCapacity": 2829.84,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.28,
+"full": 84.7,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-17T00:00:00",
+"gasInStorage": 120.211,
+"consumption": 350.6667,
+"consumptionFull": 34.28,
+"injection": 558.06,
+"withdrawal": -18.9,
+"netWithdrawal": -539.2,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1406.89,
+"withdrawalCapacity": 2829.46,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.38,
+"full": 84.41,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-16T00:00:00",
+"gasInStorage": 119.6627,
+"consumption": 350.6667,
+"consumptionFull": 34.12,
+"injection": 562.27,
+"withdrawal": -16.5,
+"netWithdrawal": -545.8,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1407.15,
+"withdrawalCapacity": 2828.78,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.38,
+"full": 84.03,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-07-15T00:00:00",
+"gasInStorage": 119.108,
+"consumption": 350.6667,
+"consumptionFull": 33.97,
+"injection": 552.5,
+"withdrawal": -6.3,
+"netWithdrawal": -546.2,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1407.42,
+"withdrawalCapacity": 2828.08,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.38,
+"full": 83.64,
+"info": []
+},
 {
 "name": "Netherlands",
 "code": "NL",
@@ -4034,7 +4174,7 @@
 "info": []
 }
 ],
-"data-864ebca75cd1d923fe8de77de101bc08": [
+"data-08d7ed11f104df78fe1fe6fe0f54c94b": [
 {
 "gasDayStart": "2023-01-01T00:00:00",
 "variable": "injectie",
@@ -4178,7 +4318,12 @@
 {
 "gasDayStart": "2023-07-16T00:00:00",
 "variable": "injectie",
-"value": 2419.0
+"value": 3534.0
+},
+{
+"gasDayStart": "2023-07-23T00:00:00",
+"variable": "injectie",
+"value": 2424.0
 },
 {
 "gasDayStart": "2023-01-01T00:00:00",
@@ -4323,7 +4468,12 @@
 {
 "gasDayStart": "2023-07-16T00:00:00",
 "variable": "afname",
-"value": -241.0
+"value": -264.0
+},
+{
+"gasDayStart": "2023-07-23T00:00:00",
+"variable": "afname",
+"value": -220.0
 }
 ]
 }
