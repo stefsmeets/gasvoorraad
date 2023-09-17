@@ -8,7 +8,7 @@
 "layer": [
 {
 "data": {
-"name": "data-305585ae1f06291823a726aad63632f2"
+"name": "data-7e4b37b774493cf445cfa7a71a4a5010"
 },
 "mark": {
 "type": "line",
@@ -51,7 +51,7 @@
 },
 {
 "data": {
-"name": "data-a5b281aeef98252a7b13d16e78789df6"
+"name": "data-160f77b9c34bd7c3c0644d11f77408ff"
 },
 "mark": {
 "type": "bar",
@@ -132,7 +132,147 @@
 "title": "Gasvoorraad in Nederland 2023",
 "$schema": "https://vega.github.io/schema/vega-lite/v5.14.1.json",
 "datasets": {
-"data-305585ae1f06291823a726aad63632f2": [
+"data-7e4b37b774493cf445cfa7a71a4a5010": [
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-15T00:00:00",
+"gasInStorage": 135.8467,
+"consumption": 350.6667,
+"consumptionFull": 38.74,
+"injection": 139.25,
+"withdrawal": -38.7,
+"netWithdrawal": -100.6,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1402.85,
+"withdrawalCapacity": 2840.14,
+"coveredCapacity": "100",
+"status": "E",
+"trend": 0.07,
+"full": 95.39,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-14T00:00:00",
+"gasInStorage": 135.7461,
+"consumption": 350.6667,
+"consumptionFull": 38.71,
+"injection": 139.16,
+"withdrawal": -79.8,
+"netWithdrawal": -59.3,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1403.01,
+"withdrawalCapacity": 2839.7,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.04,
+"full": 95.32,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-13T00:00:00",
+"gasInStorage": 135.6868,
+"consumption": 350.6667,
+"consumptionFull": 38.69,
+"injection": 160.86,
+"withdrawal": -89.7,
+"netWithdrawal": -71.2,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1402.99,
+"withdrawalCapacity": 2839.75,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.05,
+"full": 95.28,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-12T00:00:00",
+"gasInStorage": 135.6156,
+"consumption": 350.6667,
+"consumptionFull": 38.67,
+"injection": 146.44,
+"withdrawal": -137.2,
+"netWithdrawal": -9.2,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1402.9,
+"withdrawalCapacity": 2840.01,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.01,
+"full": 95.23,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-11T00:00:00",
+"gasInStorage": 135.6063,
+"consumption": 350.6667,
+"consumptionFull": 38.67,
+"injection": 118.78,
+"withdrawal": -76.4,
+"netWithdrawal": -42.4,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1402.89,
+"withdrawalCapacity": 2840.02,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.03,
+"full": 95.22,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-10T00:00:00",
+"gasInStorage": 135.5638,
+"consumption": 350.6667,
+"consumptionFull": 38.66,
+"injection": 133.2,
+"withdrawal": -60.1,
+"netWithdrawal": -73.1,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1402.89,
+"withdrawalCapacity": 2840.02,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.05,
+"full": 95.19,
+"info": []
+},
+{
+"name": "Netherlands",
+"code": "NL",
+"url": "NL",
+"gasDayStart": "2023-09-09T00:00:00",
+"gasInStorage": 135.4907,
+"consumption": 350.6667,
+"consumptionFull": 38.64,
+"injection": 116.54,
+"withdrawal": -69.5,
+"netWithdrawal": -47.1,
+"workingGasVolume": 142.4091,
+"injectionCapacity": 1402.89,
+"withdrawalCapacity": 2840.02,
+"coveredCapacity": "100",
+"status": "C",
+"trend": 0.03,
+"full": 95.14,
+"info": []
+},
 {
 "name": "Netherlands",
 "code": "NL",
@@ -164,13 +304,13 @@
 "injection": 94.1,
 "withdrawal": -78.5,
 "netWithdrawal": -15.6,
-"workingGasVolume": 137.4091,
+"workingGasVolume": 142.4091,
 "injectionCapacity": 1402.89,
-"withdrawalCapacity": 2480.03,
-"coveredCapacity": "97.17",
+"withdrawalCapacity": 2840.03,
+"coveredCapacity": "100",
 "status": "C",
 "trend": 0.01,
-"full": 98.56,
+"full": 95.1,
 "info": []
 },
 {
@@ -329,7 +469,7 @@
 "withdrawalCapacity": 2841.46,
 "coveredCapacity": "100",
 "status": "C",
-"trend": 0.05,
+"trend": 0.03,
 "full": 94.56,
 "info": []
 },
@@ -349,7 +489,7 @@
 "withdrawalCapacity": 2841.44,
 "coveredCapacity": "100",
 "status": "C",
-"trend": -0.0,
+"trend": -0.01,
 "full": 94.52,
 "info": []
 },
@@ -369,7 +509,7 @@
 "withdrawalCapacity": 2841.15,
 "coveredCapacity": "100",
 "status": "C",
-"trend": 0.02,
+"trend": 0.0,
 "full": 94.53,
 "info": []
 },
@@ -489,7 +629,7 @@
 "withdrawalCapacity": 2839.6,
 "coveredCapacity": "100",
 "status": "C",
-"trend": 0.13,
+"trend": 0.14,
 "full": 93.89,
 "info": []
 },
@@ -1749,7 +1889,7 @@
 "withdrawalCapacity": 2816.25,
 "coveredCapacity": "100",
 "status": "C",
-"trend": 0.31,
+"trend": 0.3,
 "full": 75.34,
 "info": []
 },
@@ -3449,7 +3589,7 @@
 "withdrawalCapacity": 2734.4,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": -0.07,
+"trend": -0.08,
 "full": 58.88,
 "info": []
 },
@@ -3469,7 +3609,7 @@
 "withdrawalCapacity": 2734.06,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": 0.06,
+"trend": 0.07,
 "full": 58.95,
 "info": []
 },
@@ -3509,7 +3649,7 @@
 "withdrawalCapacity": 2732.98,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": 0.03,
+"trend": 0.11,
 "full": 58.78,
 "info": []
 },
@@ -3529,7 +3669,7 @@
 "withdrawalCapacity": 2732.63,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": -0.04,
+"trend": 0.05,
 "full": 58.67,
 "info": []
 },
@@ -3549,7 +3689,7 @@
 "withdrawalCapacity": 2732.34,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": -0.01,
+"trend": 0.02,
 "full": 58.63,
 "info": []
 },
@@ -3869,7 +4009,7 @@
 "withdrawalCapacity": 2735.71,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": -0.44,
+"trend": 0.77,
 "full": 60.44,
 "info": []
 },
@@ -3889,7 +4029,7 @@
 "withdrawalCapacity": 2736.37,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": -0.39,
+"trend": -1.61,
 "full": 59.67,
 "info": []
 },
@@ -4809,7 +4949,7 @@
 "withdrawalCapacity": 2773.22,
 "coveredCapacity": "98.25",
 "status": "C",
-"trend": -0.52,
+"trend": -0.51,
 "full": 74.34,
 "info": []
 },
@@ -5149,12 +5289,12 @@
 "withdrawalCapacity": 2775.06,
 "coveredCapacity": "98.25",
 "status": "E",
-"trend": 0.09,
+"trend": 0.0,
 "full": 77.23,
 "info": []
 }
 ],
-"data-a5b281aeef98252a7b13d16e78789df6": [
+"data-160f77b9c34bd7c3c0644d11f77408ff": [
 {
 "gasDayStart": "2023-01-01T00:00:00",
 "variable": "injectie",
@@ -5338,7 +5478,12 @@
 {
 "gasDayStart": "2023-09-10T00:00:00",
 "variable": "injectie",
-"value": 565.0
+"value": 815.0
+},
+{
+"gasDayStart": "2023-09-17T00:00:00",
+"variable": "injectie",
+"value": 704.0
 },
 {
 "gasDayStart": "2023-01-01T00:00:00",
@@ -5523,7 +5668,12 @@
 {
 "gasDayStart": "2023-09-10T00:00:00",
 "variable": "afname",
-"value": -342.0
+"value": -472.0
+},
+{
+"gasDayStart": "2023-09-17T00:00:00",
+"variable": "afname",
+"value": -422.0
 }
 ]
 }
