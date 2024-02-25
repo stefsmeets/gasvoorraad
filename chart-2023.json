@@ -8,7 +8,7 @@
 "layer": [
 {
 "data": {
-"name": "data-9cb6e3d200b542e7eb2e5b80c9ae93a2"
+"name": "data-8ae59b580950cf071e68a3819e808b4f"
 },
 "mark": {
 "type": "line",
@@ -132,7 +132,7 @@
 "title": "Gasvoorraad in Nederland 2023",
 "$schema": "https://vega.github.io/schema/vega-lite/v5.14.1.json",
 "datasets": {
-"data-9cb6e3d200b542e7eb2e5b80c9ae93a2": [
+"data-8ae59b580950cf071e68a3819e808b4f": [
 {
 "name": "Netherlands",
 "code": "NL",
@@ -6439,12 +6439,12 @@
 "name": "Netherlands",
 "code": "NL",
 "url": "NL",
-"updatedAt": "2023-07-11 08:21:07",
+"updatedAt": "2024-02-23 10:45:06",
 "gasDayStart": "2023-04-01T00:00:00",
 "gasInStorage": 82.377,
 "consumption": 312.19,
 "consumptionFull": 26.39,
-"injection": 229.12,
+"injection": 229.14,
 "withdrawal": -30.3,
 "netWithdrawal": -198.8,
 "workingGasVolume": 141.4411,
