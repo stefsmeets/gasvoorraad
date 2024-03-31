@@ -8,7 +8,7 @@
 "layer": [
 {
 "data": {
-"name": "data-8ae59b580950cf071e68a3819e808b4f"
+"name": "data-e3474f052bb61792a787f88c7154d4ae"
 },
 "mark": {
 "type": "line",
@@ -51,7 +51,7 @@
 },
 {
 "data": {
-"name": "data-7ca39a0779f2ec9ed4ca6653c94112f8"
+"name": "data-63369332070fe9d1c51891f9f447c14f"
 },
 "mark": {
 "type": "bar",
@@ -130,9 +130,9 @@
 }
 },
 "title": "Gasvoorraad in Nederland 2023",
-"$schema": "https://vega.github.io/schema/vega-lite/v5.14.1.json",
+"$schema": "https://vega.github.io/schema/vega-lite/v5.17.0.json",
 "datasets": {
-"data-8ae59b580950cf071e68a3819e808b4f": [
+"data-e3474f052bb61792a787f88c7154d4ae": [
 {
 "name": "Netherlands",
 "code": "NL",
@@ -8529,7 +8529,7 @@
 "info": []
 }
 ],
-"data-7ca39a0779f2ec9ed4ca6653c94112f8": [
+"data-63369332070fe9d1c51891f9f447c14f": [
 {
 "gasDayStart": "2023-01-01T00:00:00",
 "variable": "injectie",
